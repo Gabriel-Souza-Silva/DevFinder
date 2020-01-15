@@ -11,6 +11,7 @@ mongoose.connect('mongodb+srv://devmaster:Oimeuchapa2@cluster0-f5gl2.mongodb.net
     useCreateIndex: true,
 })
 
+
 app.use(express.json())
 app.use(routes)
 
