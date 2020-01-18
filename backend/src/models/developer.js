@@ -9,7 +9,7 @@ const devSchema = new mongoose.Schema({
     techs: [String],
     location: {
         type: PointSchema,
-        index: '2desphere'
+        index: '2dsphere'
     }
 })
 
